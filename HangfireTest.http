@@ -1,0 +1,11 @@
+@HangfireTest_HostAddress = http://localhost:5277
+
+GET {{HangfireTest_HostAddress}}/timer/start
+Accept: application/json
+Content-Type: application/json
+###
+
+GET {{HangfireTest_HostAddress}}/timer/stop
+Accept: application/json
+Content-Type: application/json
+###
